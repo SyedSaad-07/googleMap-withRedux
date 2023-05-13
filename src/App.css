@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.flexClass{
+  display: flex ;
+  flex-direction: row ;
+  justify-content: center ;
+  gap: 8px;
+}
+
+.text{
+  text-align: center;
+  font-weight: 800;
+}
+.button{
+  margin: 0% !important;
+  padding: 10px !important;
+  border-radius: 50%;
+  /* background-color: #61dafb; */
+  background-color: #76BC21;
+}
+.map{
+  border: solid 10px #76BC21;
+  display: flex !important;
+}
+.gmap{
+  flex-direction: row !important;
+  justify-content: center !important;
+}
